@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter basename="/">
       <>
         <Header />
-        <div className="container">
+        <div className="containerr">
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/movie/:imdbID" element={<MovieDetail />} />
